@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root > div > div > div.my-8 > div.carousel-root > div:nth-child(2) > div > ul{
+    display: flex !important ;
+    justify-content: center !important ;
+    align-items: center !important ;
+
+}

@@ -33,6 +33,7 @@ const NavBar = () => {
     const navLinks = <>
     <li className="font-medium"><Link to='/'>Home</Link></li>
     <li className="font-medium"><Link to='/menu'>Our Menu</Link></li>
+    <li className="font-medium"><Link to='/order'>Order Now</Link></li>
     </>
   return (
     <>

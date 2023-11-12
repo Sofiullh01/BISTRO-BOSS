@@ -8,3 +8,9 @@
     align-items: center !important ;
 
 }
+
+#root > div > div > div:nth-child(2) > div.react-tabs > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

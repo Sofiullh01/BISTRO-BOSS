@@ -2,7 +2,7 @@ import BistroBossImg from "../../../assets/home/chef-service.jpg";
 
 const BistroBoss = () => {
   return (
-    <div className="relative">
+    <div className="relative my-10">
       <img src={BistroBossImg} alt="" />
       <div className="absolute bottom-14 bg-white w-[850px] py-12 right-36 px-32 text-center">
         <h3 className="text-4xl font-semibold">Bistro Boss</h3>

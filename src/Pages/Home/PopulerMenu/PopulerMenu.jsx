@@ -19,7 +19,7 @@ const PopulerMenu = () => {
       }, []);
       
     return (
-        <section className="my-12">
+        <section className="my-20">
             <Section 
             heading={'FROM OUR MENU'}
             subHeading={'---Check it out---'}
@@ -31,6 +31,9 @@ const PopulerMenu = () => {
                     items={Items}
                     key={Items._id}></MenuItems>)
                 }
+            </div>
+            <div className=" my-6 flex justify-center items-center">
+            <button className=" py-2 px-2 hover:bg-[#FBA407] hover:text-white font-medium duration-1000 rounded-md border-b-4 outline-none">View Full  Menu</button>
             </div>
         </section>
     );

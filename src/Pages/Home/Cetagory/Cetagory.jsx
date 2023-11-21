@@ -3,6 +3,7 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import 'swiper/swiper-bundle.css';
 
 
 import slider1 from '../../../assets/home/slide1.jpg'
@@ -20,10 +21,11 @@ const Cetagory = () => {
       subHeading={'---From 11:00am to 10:00pm---'}
       ></Section>
       <Swiper 
+      spaceBetween={10}
+      slidesPerView={5}
+      autoplay={{ delay: 3000, disableOnInteraction: false }}
       autoPlay={true}
       interval={3000}
-      slidesPerView={4}
-      spaceBetween={30}
       centeredSlides={true}
       pagination={{
         clickable: true,

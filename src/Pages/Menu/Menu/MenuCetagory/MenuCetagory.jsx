@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Cover from "../../../Shared/Cover/Cover";
 import MenuItems from "../../../Shared/MenuItems/MenuItems";
 import PropTypes from "prop-types";
@@ -14,9 +15,11 @@ const MenuCetagory = ({ items,backgImg,title,subTitle,btnValue}) => {
           <MenuItems items={Items} key={Items._id}></MenuItems>
         ))}
       </div>
-      {btnValue && <div className=" my-6 flex justify-center items-center">
+      {btnValue && <Link to={`/order/${title}`}>
+        <div className=" my-6 flex justify-center items-center">
             <button className=" py-2 px-4 hover:bg-[#FBA407] hover:text-white font-medium duration-1000 rounded-md border-b-4 outline-none">{btnValue}</button>
-            </div>}
+            </div>
+      </Link>}
     </div>
   );
 };

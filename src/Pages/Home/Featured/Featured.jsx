@@ -27,7 +27,7 @@ const Featured = () => {
     return strTime;
   };
   return (
-    <div className="featured-items bg-fixed text-white  ">
+    <div className="featured-items bg-fixed text-white">
       <div className="bg-black bg-opacity-40 pt-8 ">
       <Section subHeading={"---Check it out---"} heading={"FROM OUR MENU"} />
       <div className="md:flex gap-5 justify-center items-center py-20 px-16">

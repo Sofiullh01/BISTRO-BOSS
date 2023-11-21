@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import './card.css'
 
 const ShouldCard = ({image,title,text}) => {
-    console.log(typeof image)
   return (
     <div className="card  bg-base-100 shadow-xl">
       <figure>
@@ -22,7 +21,7 @@ const ShouldCard = ({image,title,text}) => {
   );
 };
 ShouldCard.propTypes ={
-    image: PropTypes,
+    image: PropTypes.string,
     title: PropTypes.string,
     text: PropTypes.string,
 }

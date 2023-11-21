@@ -10,7 +10,7 @@ import slider6 from '../../../assets/home/06.png'
 
 const Banner = () => {
     return (
-        <Carousel>
+        <Carousel autoPlay interval={6000} infiniteLoop>
                 <div>
                     <img src={slider1} />
                 </div>        
